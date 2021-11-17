@@ -106,8 +106,9 @@ namespace Zombie_Game
             this.Controls.Add(this.txtHealth);
             this.Controls.Add(this.txtScore);
             this.Controls.Add(this.txtAmmo);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "zombieGame";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Zombie Game";
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.KeyisDown);
             this.KeyUp += new System.Windows.Forms.KeyEventHandler(this.KeyisUp);
