@@ -1,15 +1,15 @@
-#Human vs. Zombies
+#Human vs. Zombies #
 ---
 
-##Motivation
+##Motivation##
 ---
 Practice coding in C# with .NET framework  
 
-##Examples
+##Examples##
 ---
 
 
-##Usage
+##Usage##
 ---
 Download the Zombie Game.exe File && Run
 
